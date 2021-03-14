@@ -13,8 +13,9 @@ interface Grocery {
     }
   }
   
-type ItemArray = Array<string>;
-const item = ['milk', 'bread', 'eggs', 'apples', 'carrots'];
+let item: string[] = new Array('milk', 'bread', 'eggs', 'apples', 'carrots');
 
-type QuantityArray = Array<number>;
-const quantity = [3, 1, 6, 5, 8];
+let quantity: number[] = new Array(3, 1, 6, 5, 8);
+
+console.log(item);
+console.log(quantity);
